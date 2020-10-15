@@ -1,0 +1,195 @@
+                                                                                                            /* vietnamese */
+                                                                                                            @font-face {
+                                                                                                                font-family: 'Crimson Pro';
+                                                                                                                font-style: normal;
+                                                                                                                font-weight: 200;
+                                                                                                                font-display: swap;
+                                                                                                                src: url(https://fonts.gstatic.com/s/crimsonpro/v13/q5uDsoa5M_tv7IihmnkabARUoYFoCQ.woff2) format('woff2');
+                                                                                                                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+                                                                                                            }
+                                                                                                            /* latin-ext */
+                                                                                                            @font-face {
+                                                                                                                font-family: 'Crimson Pro';
+                                                                                                                font-style: normal;
+                                                                                                                font-weight: 200;
+                                                                                                                font-display: swap;
+                                                                                                                src: url(https://fonts.gstatic.com/s/crimsonpro/v13/q5uDsoa5M_tv7IihmnkabARVoYFoCQ.woff2) format('woff2');
+                                                                                                                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+                                                                                                            }
+                                                                                                            /* latin */
+                                                                                                            @font-face {
+                                                                                                                font-family: 'Crimson Pro';
+                                                                                                                font-style: normal;
+                                                                                                                font-weight: 200;
+                                                                                                                font-display: swap;
+                                                                                                                src: url(https://fonts.gstatic.com/s/crimsonpro/v13/q5uDsoa5M_tv7IihmnkabARboYE.woff2) format('woff2');
+                                                                                                                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+                                                                                                            }
+                                                                                                            /* vietnamese */
+                                                                                                            @font-face {
+                                                                                                                font-family: 'Crimson Pro';
+                                                                                                                font-style: normal;
+                                                                                                                font-weight: 400;
+                                                                                                                font-display: swap;
+                                                                                                                src: url(https://fonts.gstatic.com/s/crimsonpro/v13/q5uDsoa5M_tv7IihmnkabARUoYFoCQ.woff2) format('woff2');
+                                                                                                                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+                                                                                                            }
+                                                                                                            /* latin-ext */
+                                                                                                            @font-face {
+                                                                                                                font-family: 'Crimson Pro';
+                                                                                                                font-style: normal;
+                                                                                                                font-weight: 400;
+                                                                                                                font-display: swap;
+                                                                                                                src: url(https://fonts.gstatic.com/s/crimsonpro/v13/q5uDsoa5M_tv7IihmnkabARVoYFoCQ.woff2) format('woff2');
+                                                                                                                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+                                                                                                            }
+                                                                                                            /* latin */
+                                                                                                            @font-face {
+                                                                                                                font-family: 'Crimson Pro';
+                                                                                                                font-style: normal;
+                                                                                                                font-weight: 400;
+                                                                                                                font-display: swap;
+                                                                                                                src: url(https://fonts.gstatic.com/s/crimsonpro/v13/q5uDsoa5M_tv7IihmnkabARboYE.woff2) format('woff2');
+                                                                                                                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+                                                                                                            }
+                                                                                                            /* vietnamese */
+                                                                                                            @font-face {
+                                                                                                                font-family: 'Crimson Pro';
+                                                                                                                font-style: normal;
+                                                                                                                font-weight: 500;
+                                                                                                                font-display: swap;
+                                                                                                                src: url(https://fonts.gstatic.com/s/crimsonpro/v13/q5uDsoa5M_tv7IihmnkabARUoYFoCQ.woff2) format('woff2');
+                                                                                                                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+                                                                                                            }
+                                                                                                            /* latin-ext */
+                                                                                                            @font-face {
+                                                                                                                font-family: 'Crimson Pro';
+                                                                                                                font-style: normal;
+                                                                                                                font-weight: 500;
+                                                                                                                font-display: swap;
+                                                                                                                src: url(https://fonts.gstatic.com/s/crimsonpro/v13/q5uDsoa5M_tv7IihmnkabARVoYFoCQ.woff2) format('woff2');
+                                                                                                                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+                                                                                                            }
+                                                                                                            /* latin */
+                                                                                                            @font-face {
+                                                                                                                font-family: 'Crimson Pro';
+                                                                                                                font-style: normal;
+                                                                                                                font-weight: 500;
+                                                                                                                font-display: swap;
+                                                                                                                src: url(https://fonts.gstatic.com/s/crimsonpro/v13/q5uDsoa5M_tv7IihmnkabARboYE.woff2) format('woff2');
+                                                                                                                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+                                                                                                            }
+                                                                                                            /* vietnamese */
+                                                                                                            @font-face {
+                                                                                                                font-family: 'Crimson Pro';
+                                                                                                                font-style: normal;
+                                                                                                                font-weight: 700;
+                                                                                                                font-display: swap;
+                                                                                                                src: url(https://fonts.gstatic.com/s/crimsonpro/v13/q5uDsoa5M_tv7IihmnkabARUoYFoCQ.woff2) format('woff2');
+                                                                                                                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+                                                                                                            }
+                                                                                                            /* latin-ext */
+                                                                                                            @font-face {
+                                                                                                                font-family: 'Crimson Pro';
+                                                                                                                font-style: normal;
+                                                                                                                font-weight: 700;
+                                                                                                                font-display: swap;
+                                                                                                                src: url(https://fonts.gstatic.com/s/crimsonpro/v13/q5uDsoa5M_tv7IihmnkabARVoYFoCQ.woff2) format('woff2');
+                                                                                                                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+                                                                                                            }
+                                                                                                            /* latin */
+                                                                                                            @font-face {
+                                                                                                                font-family: 'Crimson Pro';
+                                                                                                                font-style: normal;
+                                                                                                                font-weight: 700;
+                                                                                                                font-display: swap;
+                                                                                                                src: url(https://fonts.gstatic.com/s/crimsonpro/v13/q5uDsoa5M_tv7IihmnkabARboYE.woff2) format('woff2');
+                                                                                                                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+                                                                                                            }
+
+
+
+
+
+body {
+
+    background-image: url("https://m9onvw.am.files.1drv.com/y4m_cxxEu58OX8gmrCbx3dzRVKDl3L3sWDQPd9ZrmYLcOrG_GTIBvHIxYaCI589-Twpu7QFeoSMoVf0c0PcwzTDpwK-21hfs0hOAtenDWS-t0wS8zsnHWEEVfN97di9LFBFGx2jcK1w24b71U0nCCySfyjqk37cw_m9N0H42d0jeksj72YjIq4Qbr_GVWDl_JU8jOvfLvdCXDB8Gm9OtFMUhw");
+    background-size: auto;
+    background-color: #dae3e5;
+
+    font-family: "Crimson Pro";
+
+    box-sizing: border-box;
+}
+
+
+/*nav design*/
+nav {
+    display: block;
+    position: relative;
+    top: 0px;
+    left: -8px;
+    height: auto;
+    width: 100%;
+    margin-bottom: 0px;
+    
+    color: #dbfcff;
+
+    box-sizing: border-box;
+}
+
+nav ul {
+
+    list-style: none;
+    
+    margin: 0px !important;
+    position: fixed;
+    top: 0px;
+    
+   
+    display: flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 0px !important;
+
+
+
+    box-sizing: border-box;
+
+    width: 100%;
+    height: fit-content;
+
+
+}
+
+nav li {
+ min-width: 100px;
+ width: 20%;
+
+ margin: 0px 0.5px;
+ background-color: #320e3b;
+ padding: 10px 50px;
+ letter-spacing: 5px;
+
+ text-align: center;
+ font-size: small;
+
+ box-sizing: border-box;
+ top: 0px;
+}
+
+nav li:nth-child(1){
+margin-left: 0px;
+}
+
+nav li:last-child{
+    margin-right: 0px;
+}
+/*nav design*/
+
+
+/*logo container*/
+
+/*logo container*/
