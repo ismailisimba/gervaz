@@ -120,7 +120,9 @@ body {
     font-family: "Crimson Pro";
 
     box-sizing: border-box;
+
     overflow-x: hidden;
+    
 }
 
 
@@ -229,7 +231,7 @@ nav li:last-child{
     box-sizing: border-box;
 
     margin-top: 3px;
-    overflow-x: hidden;
+    
 
     display: flex;
     flex-flow: column;
@@ -237,6 +239,8 @@ nav li:last-child{
 
     justify-content: flex-end;
     align-items: center;
+
+    overflow-x: hidden;
 }
 
 #shoutout {
@@ -273,24 +277,28 @@ nav li:last-child{
     display: block;
     position: absolute;
     top: 0px;
-    left: -100%;
+    left: 0px;
     background-color: none;
 
-    width: 300%;
+    width: 400%;
     height:100%;
 
-    display: flex;
-    flex-flow: row;
-    flex-wrap: nowrap;
-
-    justify-content: center;
-    align-items: center;
     box-sizing: border-box;
+
+    overflow-x: hidden;
+
     
 }
 
 .main-showcase-child {
-    width: 100%;
+    display: block;
+    position: absolute;
+
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 25%;
     height: 100%;
     background-color: none;
     color: #320e3b;
@@ -302,9 +310,38 @@ nav li:last-child{
     padding-top: 50px;
     box-sizing: border-box;
 
+    transition: all;
+
+    -webkit-transition-duration: 4.5s;
+    -moz-transition-duration: 4.5s;
+    -o-transition-duration: 4.5s;
+    transition-duration: 4.5s;
+
+
+    -webkit-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+  
+    overflow-x: hidden;
 
 }
 
+#four {
+    left:50%;
+}
+
+#three {
+    left:25%
+}
+
+#two {
+    left:0px;
+}
+
+#one {
+    left:-25%;
+}
   
 /*non static part*/
 

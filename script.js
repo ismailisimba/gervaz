@@ -30,14 +30,62 @@ localVar = {
 
            if (counterOne<numOfImages-1){
 
-            children[0].style.backgroundImage = `url(${mainImages.imageLinks[counterOne]})`;
-            children[1].style.left = "-100%";
-            children[2].style.left = "-100%"
+           // children[0].style.backgroundImage = `url(${mainImages.imageLinks[counterOne]})`;
+            //children[1].style.left = "-100%";
+            //children[2].style.left = "-100%";
+            //children[0].style.left = "200%";
+
+             /* Remove code starts here*/
+             let throwawayNode = container.removeChild(children[0]);
+             throwawayNode = null;
+            /* Remove code ends here*/
+   
+            children[0].style.left = "-25%";
+            children[1].style.left ="0px";
+            
+   
+              /* Add code starts here */
+              let sp1 = document.createElement("div");
+              sp1.className = "main-showcase-child";
+              sp1.style.backgroundImage = `url(${mainImages.imageLinks[counterOne]})`;
+              captionBox.innerHTML = mainImages.shoutOut[counterOne];
+            
+            
+             sp1.style.width = "25%";
+            sp1.style.left = "25%";
+
+              let sp2 = document.getElementById("four");
+              let parentDiv = sp2.parentNode;
+              parentDiv.insertBefore(sp1, sp2);
+              /* Add code ends here */
 
 
             counterOne++
 
            }else {
+                /* Remove code starts here*/
+             let throwawayNode = container.removeChild(children[0]);
+             throwawayNode = null;
+            /* Remove code ends here*/
+   
+            children[0].style.left = "-25%";
+            children[1].style.left ="0px";
+            
+   
+              /* Add code starts here */
+              let sp1 = document.createElement("div");
+              sp1.className = "main-showcase-child";
+              sp1.style.backgroundImage = `url(${mainImages.imageLinks[counterOne]})`;
+              captionBox.innerHTML = mainImages.shoutOut[counterOne];
+            
+            
+              sp1.style.width = "25%";
+              sp1.style.left = "25%";
+
+              let sp2 = document.getElementById("four");
+              let parentDiv = sp2.parentNode;
+              parentDiv.insertBefore(sp1, sp2);
+              /* Add code ends here */
                counterOne = 0;
            }
 
@@ -56,7 +104,7 @@ localVar = {
 
 
 
-            setTimeout(repeatMe,2000);
+            setTimeout(repeatMe,5000);
         }
 
         repeatMe();
