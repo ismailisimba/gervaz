@@ -229,6 +229,7 @@ nav li:last-child{
     box-sizing: border-box;
 
     margin-top: 3px;
+    overflow-x: hidden;
 
     display: flex;
     flex-flow: column;
@@ -241,11 +242,12 @@ nav li:last-child{
 #shoutout {
     background-color: #320e3b;
     padding: 10px 50px;
-    width: 250px;
+    width: 300px;
     letter-spacing: 3px;
     line-height: normal;
     opacity: 0.69;
     margin-bottom: 30px;
+    box-sizing: border-box;
 }
 
 #main-showcase button {
@@ -261,7 +263,52 @@ nav li:last-child{
     font-size: large;
     font-weight: 500;
     letter-spacing: 3px;
+    box-sizing: border-box;
+    z-index: 99;
 }
+
+/*non static part*/
+
+#main-showcase-container{
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: -100%;
+    background-color: none;
+
+    width: 300%;
+    height:100%;
+
+    display: flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    
+}
+
+.main-showcase-child {
+    width: 100%;
+    height: 100%;
+    background-color: none;
+    color: #320e3b;
+
+    font-size: xx-large;
+    text-align: center;
+    font-weight: 700;
+
+    padding-top: 50px;
+    box-sizing: border-box;
+
+
+}
+
+  
+/*non static part*/
+
+
 /*main showcase*/
 
 /*featured items from each page*/
@@ -306,6 +353,7 @@ nav li:last-child{
     background-image: url("https://xwalnq.am.files.1drv.com/y4mpN5NpGkM80gerdIWfhnaep0qpDCV6BDtfxe0HAxedYwoCnnAb3ZJuPfPezlCDHEmCtYnEXOtu_f_HoaUNfcmHn-tAm3hbVCRJJ7qZ5R9C7TOM7pdZLMumGxtLU15kuT7FRx70mYMvp7pW5EXV_pUUeWbyuM5ZQwhX1rKYlLg8HfXnaWVBDUetDvf5JYmsjzy9rplHlGmog9fBQ1tyv1LvQ");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .featured button {
