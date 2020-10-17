@@ -192,6 +192,11 @@ margin-left: 0px;
 nav li:last-child{
     margin-right: 0px;
 }
+
+#mobile-nav {
+
+    display: none;
+}
 /*nav design*/
 
 /*side nav*/
@@ -771,6 +776,8 @@ footer{
 
     nav li {
         width: 33.1%;
+
+        padding: 10px 20px;
     }
 
     nav li:nth-child(3){
@@ -890,6 +897,132 @@ footer{
             border-left: solid 1px white;
             padding-left: 5px;
         }
+
+
+
+
+
+        /*Mobile only items*/
+        #mobile-nav {
+
+            display: block;
+            position: fixed;
+            top: 0px;
+            left: -300px;
+
+            
+
+            background-color: none;
+
+            z-index: 150;
+
+            transition: all;
+
+            -webkit-transition-duration: 1.5s;
+            -moz-transition-duration: 1.5s;
+            -o-transition-duration: 1.5s;
+            transition-duration: 1.5s;
+        
+        
+            -webkit-transition-timing-function: ease-out;
+            -moz-transition-timing-function: ease-out;
+            -o-transition-timing-function: ease-out;
+            transition-timing-function: ease-out;
+        }
+
+        #mobile-nav:hover, #mobile-nav:active {
+
+            left: 0px;
+
+           
+        }
+
+        #mobile-nav-back{
+            background-image: url("https://m9onvw.am.files.1drv.com/y4m_cxxEu58OX8gmrCbx3dzRVKDl3L3sWDQPd9ZrmYLcOrG_GTIBvHIxYaCI589-Twpu7QFeoSMoVf0c0PcwzTDpwK-21hfs0hOAtenDWS-t0wS8zsnHWEEVfN97di9LFBFGx2jcK1w24b71U0nCCySfyjqk37cw_m9N0H42d0jeksj72YjIq4Qbr_GVWDl_JU8jOvfLvdCXDB8Gm9OtFMUhw");
+            background-size: 300px 300px;
+            background-color: #dae3e5;
+
+            opacity: 0.96;
+
+        }
+
+        #mobile-nav-container{
+            display: block;
+            width: 100%;
+            height: 320px;
+
+            display: flex;
+            flex-flow: column;
+            flex-wrap: nowrap;
+
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .mobile-nav-items {
+
+            text-align: center;
+        }
+
+        #mobile-nav-items{
+            display: flex;
+            flex-flow: column;
+            flex-wrap: nowrap;
+
+            justify-content: center;
+            align-items: center;
+        }
+
+        .mobile-nav-items:nth-child(1), .mobile-nav-items:nth-child(2), .mobile-nav-items:nth-child(3) {
+
+            background-color: #320e3b;
+            color: #dbfcff;
+            border: none;
+            font-family: "Crimson Pro";
+        
+            padding: 5px 14px;
+            
+            width: 50%;
+            
+            font-size: small;
+            font-weight: 200;
+            letter-spacing: 3px;
+            box-sizing: border-box;
+            margin-bottom: 9px;
+        
+            box-shadow: 3px 2px 5px 0.2px black;
+
+        }
+
+        #mobile-nav-close{
+
+            width: 200px;
+            height: 36px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+
+            background-color: none;
+        }
+
+        #arrow-left-close{
+            width: 0; 
+            height: 0; 
+            margin-left: 90px;
+            border-top: 20px solid transparent;
+            border-bottom: 20px solid transparent; 
+
+            border-right:20px solid #320e3b; 
+        }
+       #search-container textarea, #contact-us-container button {
+            width: 70%;
+            margin-bottom: 7px;
+            margin-top: 15px;
+       }
+
+       #search-container {
+           height: 80px;
+       }
+        /*Mobile only items*/
 
 
 
