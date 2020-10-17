@@ -194,6 +194,28 @@ nav li:last-child{
 }
 /*nav design*/
 
+/*side nav*/
+#side-nav {
+
+    display: block;
+    position: fixed;
+
+    right: 0px;
+    top: 70%;
+
+
+    z-index: 150;
+
+    width: 300px;
+    height: 150px;
+
+    background-color: #320e3b;
+    color: #dbfcff;
+    border: solid 0.5px white;
+}
+
+/*side nav*/
+
 
 /*logo container*/
 #logo-container {
@@ -247,11 +269,13 @@ nav li:last-child{
     background-color: #320e3b;
     padding: 10px 50px;
     width: 300px;
-    letter-spacing: 3px;
+    letter-spacing: 5px;
     line-height: normal;
     opacity: 0.69;
     margin-bottom: 30px;
     box-sizing: border-box;
+    font-weight: 600;
+    font-size: large;
 }
 
 #main-showcase button {
@@ -285,7 +309,7 @@ nav li:last-child{
 
     box-sizing: border-box;
 
-    overflow-x: hidden;
+    
 
     
 }
@@ -312,10 +336,10 @@ nav li:last-child{
 
     transition: all;
 
-    -webkit-transition-duration: 4.5s;
-    -moz-transition-duration: 4.5s;
-    -o-transition-duration: 4.5s;
-    transition-duration: 4.5s;
+    -webkit-transition-duration: 3s;
+    -moz-transition-duration: 3s;
+    -o-transition-duration: 3s;
+    transition-duration: 3s;
 
 
     -webkit-transition-timing-function: ease-in-out;
@@ -323,7 +347,7 @@ nav li:last-child{
     -o-transition-timing-function: ease-in-out;
     transition-timing-function: ease-in-out;
   
-    overflow-x: hidden;
+    
 
 }
 

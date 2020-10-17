@@ -9,9 +9,11 @@ var mainImages = {
                 ]
 }
 
-let counterOne = 0;
-let numOfImages = mainImages.imageLinks.length;
 
+let numOfImages = mainImages.imageLinks.length;
+let counterOne=0;
+
+let captionNow = "Karibu!";
 
 localVar = {
 
@@ -23,60 +25,28 @@ localVar = {
             let container = document.getElementById("main-showcase-container");
             let children = document.getElementsByClassName("main-showcase-child");
             let captionBox = document.getElementById("shoutout");
+
+            let cycleLength = mainImages.imageLinks.length;
+
             
 
-           // children[1].style.backgroundImage = `url(${mainImages.imageLinks[counterOne]})`;
-           // captionBox.innerHTML = mainImages.shoutOut[0];
-
-           if (counterOne<numOfImages-1){
-
-           // children[0].style.backgroundImage = `url(${mainImages.imageLinks[counterOne]})`;
-            //children[1].style.left = "-100%";
-            //children[2].style.left = "-100%";
-            //children[0].style.left = "200%";
-
-             /* Remove code starts here*/
+                      /* Remove code starts here*/
              let throwawayNode = container.removeChild(children[0]);
              throwawayNode = null;
             /* Remove code ends here*/
    
             children[0].style.left = "-25%";
             children[1].style.left ="0px";
+            captionBox.innerHTML = captionNow;
             
+          
    
               /* Add code starts here */
               let sp1 = document.createElement("div");
               sp1.className = "main-showcase-child";
               sp1.style.backgroundImage = `url(${mainImages.imageLinks[counterOne]})`;
-              captionBox.innerHTML = mainImages.shoutOut[counterOne];
+              captionNow = mainImages.shoutOut[counterOne];
             
-            
-             sp1.style.width = "25%";
-            sp1.style.left = "25%";
-
-              let sp2 = document.getElementById("four");
-              let parentDiv = sp2.parentNode;
-              parentDiv.insertBefore(sp1, sp2);
-              /* Add code ends here */
-
-
-            counterOne++
-
-           }else {
-                /* Remove code starts here*/
-             let throwawayNode = container.removeChild(children[0]);
-             throwawayNode = null;
-            /* Remove code ends here*/
-   
-            children[0].style.left = "-25%";
-            children[1].style.left ="0px";
-            
-   
-              /* Add code starts here */
-              let sp1 = document.createElement("div");
-              sp1.className = "main-showcase-child";
-              sp1.style.backgroundImage = `url(${mainImages.imageLinks[counterOne]})`;
-              captionBox.innerHTML = mainImages.shoutOut[counterOne];
             
             
               sp1.style.width = "25%";
@@ -86,25 +56,20 @@ localVar = {
               let parentDiv = sp2.parentNode;
               parentDiv.insertBefore(sp1, sp2);
               /* Add code ends here */
-               counterOne = 0;
-           }
-
-    
-            
 
 
 
 
+            counterOne++;
+
+            if (counterOne == cycleLength){
+
+                counterOne = 0;
+            }
 
 
 
-
-
-
-
-
-
-            setTimeout(repeatMe,5000);
+            setTimeout(repeatMe,3500);
         }
 
         repeatMe();
