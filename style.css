@@ -200,8 +200,14 @@ nav li:last-child{
     display: block;
     position: fixed;
 
-    right: 0px;
-    top: 70%;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    right: -251px;
+    top: 65%;
 
 
     z-index: 150;
@@ -209,10 +215,188 @@ nav li:last-child{
     width: 300px;
     height: 150px;
 
+    background-color: transparent;
+    color: #dbfcff;
+    border: none;
+    box-shadow: none;
+    box-sizing: border-box;
+
+    transition: all;
+
+    -webkit-transition-duration: 1.5s;
+    -moz-transition-duration: 1.5s;
+    -o-transition-duration: 1.5s;
+    transition-duration: 1.5s;
+
+
+    -webkit-transition-timing-function: ease-out;
+    -moz-transition-timing-function: ease-out;
+    -o-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+
+    
+}
+
+#side-nav:hover, #side-nav:active {
+
+    right: -1px;
+
+}
+
+#shown-side-nav {
+
+    width: 50px;
+    height: 70px;
+    background-color: #dbfcff;
+    z-index: 152;
+
+    border: none;
+
+    box-shadow: 3px 2px 5px 0.2px #320e3b;
+    box-sizing: border-box;
+
+    margin-right: -1px;
+
+    display: flex;
+    flex-flow: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#hidden-side-nav {
+
+    width: 250px;
+    height: 150px;
+    background-color: none;
+    z-index: 151;
+
+    border: solid 1px #dae3e5;
+    
+    box-shadow: 3px 2px 5px 0.2px #320e3b;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-flow: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+#search-icon {
+
+    width: 25px;
+    height: 25px;
+    background-color: none;
+
+    background-image: url("https://wy5uqg.am.files.1drv.com/y4mYfsxL9Fl17_46FG_fiOfV3wXFnb2bnsuGWauHof76QRLHQIUGdlL394nIgust33LElsKEGM_Vm9K7FYuewq3f4kb-R0kHfLc7g6ZhU7DC0HeIR9wYu7Z-Gnzx8EJVg4NMhXJGgyhCBr_Oz7P0CG3GmCckrR96Rq9uBexA9hkVJuHxt79Ok2Ejm5IDtZchH_ql8ZkRS3x6bJaE5xa1NzGwg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5px;
+
+}
+
+#help-icon {
+
+    width: 25px;
+    height: 25px;
+    background-color: none;
+    text-align: center;
+    user-select: none;
+    color: #320e3b;
+
+}
+
+#search-container {
+
+    width: 230px;
+    height: 60px;
+    background-color: none;
+    text-align: center;
+    user-select: none;
+    color: #320e3b;
+    margin-bottom: 5px;
+
+    display: flex;
+    flex-flow: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#contact-us-container {
+
+    width: 230px;
+    height: 60px;
+    background-color: none;
+    text-align: center;
+    user-select: none;
+    color: #320e3b;
+
+    display: flex;
+    flex-flow: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#search-container textarea {
+
+    width: 200px;
+    height: 27px;
+    overflow: hidden;
+    resize: none;
+    margin-bottom: 3px;
+    box-sizing: border-box;
+
+    font-family: "Crimson Pro";
+}
+
+#search-container button {
+
     background-color: #320e3b;
     color: #dbfcff;
-    border: solid 0.5px white;
+    border: none;
+    font-family: "Crimson Pro";
+
+    padding: 5px 14px;
+    
+    
+    font-size: small;
+    font-weight: 200;
+    letter-spacing: 3px;
+    box-sizing: border-box;
+
+    box-shadow: 3px 2px 5px 0.2px black;
 }
+
+#contact-us-container button {
+
+    background-color: #320e3b;
+    color: #dbfcff;
+    border: none;
+    font-family: "Crimson Pro";
+
+    padding: 10px 25px;
+    
+    
+    font-size: small;
+    font-weight: 200;
+    letter-spacing: 3px;
+    box-sizing: border-box;
+
+    box-shadow: 3px 2px 5px 0.2px black;
+}
+
+
+
+
+
 
 /*side nav*/
 
@@ -456,7 +640,7 @@ footer{
     display: block;
     position: relative;
     bottom: -10px;
-    left: -10px;
+    left: 0px;
     
     
     box-sizing: border-box;
@@ -465,14 +649,14 @@ footer{
     height: fit-content;
     background-color: #320e3b;
     color: #dbfcff;
-    width: 102%;
+    width: 105%;
 
     justify-content: space-between;
     align-items: center;
 
     padding: 30px 25px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: -10px;
+    
     
 }
 
@@ -492,7 +676,7 @@ footer{
     justify-content: flex-start;
     align-items: flex-end;
 
-    padding-right: 10px;
+    margin-right: 50px;
 }
 
 #social-footer{
