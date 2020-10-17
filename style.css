@@ -426,11 +426,11 @@ nav li:last-child{
     left: 15%;
     background-image: url("https://xwalnq.am.files.1drv.com/y4mpN5NpGkM80gerdIWfhnaep0qpDCV6BDtfxe0HAxedYwoCnnAb3ZJuPfPezlCDHEmCtYnEXOtu_f_HoaUNfcmHn-tAm3hbVCRJJ7qZ5R9C7TOM7pdZLMumGxtLU15kuT7FRx70mYMvp7pW5EXV_pUUeWbyuM5ZQwhX1rKYlLg8HfXnaWVBDUetDvf5JYmsjzy9rplHlGmog9fBQ1tyv1LvQ");
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
     
     color: #dbfcff;
     width: 70%;
-    height: 450px; 
+    height: 600px; 
     text-align: center;
     font-size: normal;
     font-weight: 200;
